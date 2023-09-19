@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.kplay.top/TVBOX/TVBox-main/tvbox.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://bbs.lzyworld.com/TVBOX/TVBox-main/tvbox.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
